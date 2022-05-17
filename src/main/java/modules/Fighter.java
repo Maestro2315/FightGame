@@ -8,7 +8,7 @@ public class Fighter {
 
     public Fighter(String name, int hp, float attackSkill, float defenceSkill){
         this.name = name;
-        this.hp = 100;
+        this.hp = hp;
         this.attackSkill = attackSkill;
         this.defenceSkill = defenceSkill;
     }

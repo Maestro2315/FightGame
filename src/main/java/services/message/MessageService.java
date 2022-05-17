@@ -7,7 +7,7 @@ public interface MessageService {
 
     void print(String text);
 
-    int enterNumber() throws IOException;
+//    int enterNumber() throws IOException;
 
 
 }
