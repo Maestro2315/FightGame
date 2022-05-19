@@ -1,4 +1,4 @@
-import menuService.StartMenu;
+import menuService.SimpleStartMenu;
 
 import java.io.IOException;
 
@@ -9,10 +9,10 @@ public class Main {
 //        System.out.println(startMenu);
 //        ActionMenu actionMenu = new ActionMenu();
 //        System.out.println(actionMenu);
-        //рул
 
-        StartMenu startMenu = new StartMenu();
-        startMenu.startMenuService();
+
+        SimpleStartMenu startMenu = new SimpleStartMenu();
+        startMenu.runMainMenu();               //метод вызова начальной менюшки
     }
 
 }

@@ -6,7 +6,7 @@ public class Fighter {
     float attackSkill;
     float defenceSkill;
 
-    public Fighter(String name, int hp, float attackSkill, float defenceSkill){
+    public Fighter(String name, int hp, float attackSkill, float defenceSkill) {
         this.name = name;
         this.hp = hp;
         this.attackSkill = attackSkill;

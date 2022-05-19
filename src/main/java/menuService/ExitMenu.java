@@ -6,7 +6,7 @@ public class ExitMenu {
             exit();
         }
     }
-    public void exit(){
+    public void exit() {
         System.out.println("гг");
         System.exit(0);
     }
