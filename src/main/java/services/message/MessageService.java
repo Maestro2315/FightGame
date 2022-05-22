@@ -6,4 +6,7 @@ public interface MessageService {
 
     void print(String text);
 
+    void showFighters();
+
+    void showDevices();
 }

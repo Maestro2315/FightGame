@@ -1,4 +1,3 @@
-
 Hello warrior!
 At the very beginning, you have to choose items for the battle.
 After you have chosen them, a duel awaits you against the computer.

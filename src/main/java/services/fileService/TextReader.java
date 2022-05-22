@@ -1,16 +1,15 @@
 package services.fileService;
 
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
+
 
 public class TextReader {
 
-    public void TextReaderFile() throws FileNotFoundException {
+    public void TextReaderFile() throws IOException {
 
-        //TODO Java.nio почитать
-
-        File txt = new File("C:\\Users\\Maestro\\IdeaProjects\\FightGame\\src\\main\\resources\\Rulki.txt");
+        File txt = new File("src\\main\\resources\\Rulki.txt");
 
         Scanner textSkanner = new Scanner(txt);
         while (textSkanner.hasNextLine()) {
