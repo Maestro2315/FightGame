@@ -1,10 +1,10 @@
 package services.message;
 
-import services.fileService.JsonParserService;
+import services.fileService.JsonParser;
 
 public class InputMessageService implements MessageService {
 
-    JsonParserService service = new JsonParserService();
+    JsonParser service = new JsonParser();
 
     @Override
     public void print(String text){

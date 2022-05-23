@@ -1,6 +1,9 @@
 import menuService.SimpleStartMenu;
 import menuService.StartGameMenu;
+import modules.Fighter;
+import modules.FightersConfig;
 
+import java.io.File;
 import java.io.IOException;
 
 public class Main {
@@ -14,9 +17,11 @@ public class Main {
 //
 //        SimpleStartMenu startMenu = new SimpleStartMenu();
 //        startMenu.runMainMenu();               //метод вызова начальной менюшки
-
+//
         StartGameMenu startGameMenu = new StartGameMenu();
         startGameMenu.chooseFighter();
+
+
     }
 
 }
